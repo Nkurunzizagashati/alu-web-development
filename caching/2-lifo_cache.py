@@ -21,6 +21,7 @@ class LIFOCache(BaseCaching):
             from
         """
         super().__init__()
+        self.order = []
 
     def put(self, key, item):
         """
