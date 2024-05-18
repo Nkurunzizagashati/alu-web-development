@@ -10,7 +10,6 @@ BaseCaching = __import__('base_caching').BaseCaching
 class BasicCache(BaseCaching):
     """Base cache class"""
 
-    
     def put(self, key, item):
         """ Assign to the dictionary self.cache_data the
             item value for the key key.
