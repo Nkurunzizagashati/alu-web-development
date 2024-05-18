@@ -4,6 +4,7 @@
     This module contains a class that inherits from the BaseCaching
     class
 """
+BaseCaching = __import__('base_caching').BaseCaching
 
 
 class BasicCache(BaseCaching):
